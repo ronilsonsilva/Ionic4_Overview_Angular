@@ -14,7 +14,12 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+  },  {
+    path: 'capacitor-camera',
+    loadChildren: () => import('./pages/capacitor-camera/capacitor-camera.module').then( m => m.CapacitorCameraPageModule)
   }
+
+
 ];
 
 @NgModule({
