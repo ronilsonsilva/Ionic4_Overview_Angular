@@ -6,10 +6,10 @@ import {
   FilesystemDirectory,
   CameraPhoto,
   CameraSource
-} from "@capacitor/core";
-import { Photo } from "src/app/models/photo.model";
+} from "capacitor";
 
 import { Platform } from "@ionic/angular";
+import { Photo } from '../../models/photo.model';
 
 const { Camera, Filesystem, Storage } = Plugins;
 
