@@ -6,7 +6,7 @@ import {
   FilesystemDirectory,
   CameraPhoto,
   CameraSource
-} from "capacitor";
+} from "@capacitor/core";
 
 import { Platform } from "@ionic/angular";
 import { Photo } from '../../models/photo.model';
